@@ -14,14 +14,46 @@
 .every {
   position: absolute;
   top: 0;
+
+  animation: identifier 5s infinite;
 }
 
-/* @keyframes identifier {
-    to{
-        top: 0px
-    }
-    
-    from{
-        top:35px
-    }
-} */
+@keyframes identifier {
+  to {
+    top: 35px;
+  }
+
+  from {
+    top: 0px;
+  }
+}
+@keyframes identifier2 {
+  to {
+    top: 0px;
+  }
+
+  from {
+    top: 55px;
+  }
+}
+@keyframes identifier3 {
+  to {
+    top: 0px;
+  }
+
+  from {
+    top: 75px;
+  }
+}
+
+#row1 {
+  animation: identifier 2s 5s infinite;
+}
+
+#row2 {
+  animation: identifier2 2s 5s infinite;
+}
+
+#row3 {
+  animation: identifier3 2s 5s infinite;
+}
