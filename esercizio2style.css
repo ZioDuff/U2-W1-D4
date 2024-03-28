@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  width: 800px;
+  margin-inline: auto;
+}
+
+#row {
+  position: relative;
+}
+
+.every {
+  position: absolute;
+  top: 0;
+}
+
+/* @keyframes identifier {
+    to{
+        top: 0px
+    }
+    
+    from{
+        top:35px
+    }
+} */

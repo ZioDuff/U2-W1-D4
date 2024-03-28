@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+#post-it-container {
+  width: 800px;
+  margin-inline: auto;
+  background-color: #666666;
+  margin-block-start: 3em;
+  padding: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 50px;
+}
+
+.yellow {
+  background-color: #fafbc9;
+  padding: 4em 3em;
+  transform: rotate(352deg);
+}
+
+.green {
+  background-color: #c6f6c8;
+  padding: 4em 3em;
+  transform: rotate(8deg);
+}
+
+.violet {
+  background-color: #c4c4ef;
+  padding: 4em 3em;
+  transform: rotate(336deg);
+}
+
+.post-it-view:hover {
+  position: relative;
+  z-index: 1;
+  transform: unset;
+  scale: 1.4;
+  box-shadow: 2px 2px 2px black;
+}
